@@ -143,12 +143,13 @@
                     </view>
                     <connections>
                         <outlet property="lbQuestion" destination="sqe-5Z-DeU" id="8vn-k4-I0S"/>
+                        <outlet property="vTimer" destination="Af9-e5-2NM" id="nQ1-wM-V2G"/>
                         <outlet property="viTimer" destination="He4-9a-VuG" id="Gxz-cu-Zel"/>
                         <outletCollection property="btAnswer" destination="oOT-jd-AM1" collectionClass="NSMutableArray" id="tT4-KD-iiN"/>
                         <outletCollection property="btAnswer" destination="0dC-HV-19S" collectionClass="NSMutableArray" id="X8G-Pw-mJa"/>
                         <outletCollection property="btAnswer" destination="6Pu-Wb-EgC" collectionClass="NSMutableArray" id="79P-4G-Un3"/>
                         <outletCollection property="btAnswer" destination="m2o-js-IC9" collectionClass="NSMutableArray" id="wLi-Fy-TJo"/>
-                        <segue destination="lq6-Lq-t8B" kind="show" id="PEh-O8-O0U"/>
+                        <segue destination="lq6-Lq-t8B" kind="show" identifier="resultSegue" id="PEh-O8-O0U"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Dlh-bN-0Nd" userLabel="First Responder" sceneMemberID="firstResponder"/>
